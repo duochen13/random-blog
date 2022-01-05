@@ -1,0 +1,20 @@
+.back-button {
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: none;
+}
+
+.hashtags {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    color: #00274C;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.hashtags :hover {
+    color: #FFCB05;
+}
+

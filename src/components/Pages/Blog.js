@@ -135,7 +135,7 @@ function Blog() {
     )
   })
 
-  const renderedBlogCards = 
+  // const renderedBlogCards = 
 
   return (
     <>

@@ -127,18 +127,19 @@ function HamburgerMenu() {
 
       <Navigation clicked={click}>
         <List>
-          {/* <li>
-            <ItemLink onClick={handleClick} to="/">
-              Blog
-            </ItemLink>
-          </li> */}
-          
 
           <li>
             <ItemLink onClick={handleClick} to="/about">
               About
             </ItemLink>
           </li>
+
+          <li>
+            <ItemLink onClick={handleClick} to="/skill">
+              Skillset
+            </ItemLink>
+          </li>
+          
 
           <li>
             <ItemLink onClick={handleClick} to="/blog">

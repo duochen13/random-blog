@@ -1,105 +1,91 @@
-.hashtags-container {
-    /* margin: 20px; */
-    position: fixed;
-    overflow: hidden;
-    top: 15px;
-    margin-top: 20px;
-    width: 100%;
-    margin-right: 50px;
-    /* z-index: 100; */
+* {
+   box-sizing: border-box;
+ }
+
+
+/* color: #FFCB05;
+background-color: #00274C;  */
+
+img {
+   width: 40px;
+   margin: auto;
 }
 
-.hashtags-container :hover {
-    color: #FFCB05;
-    background-color: #00274C; 
-}
-
-.hashtags {
-    float: left;
-    padding: 5px;
-    margin: 10px;
-    color: #00274C;
-    background-color: white;
-    border-radius: 10%;
-}
-
-.hashtags :hover {
-    color: #FFCB05;
-}
-
-
-body {
-    font-family: sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   text-rendering: optimizeLegibility;
-   font-smooth: always;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-   font-size: 3rem;
-   letter-spacing: 1px;
-   margin: 0;
-   padding: 0;
+.blog-header {
+   padding: 30px;
+   margin-top: 100px;
+   margin-left: 100px;
+   font-size: 40px;
    text-align: center;
-   opacity: 0.5;
+   font-family: Arial;
+  /* background: white; */
 }
 
-.app-outer {
-   align-items: center; 
-   bottom: 0;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   left: 0;
-   padding: 20px 0;
-   position: absolute;
-   right: 0;
-   top: 0;
-}
-
-.app-inner {
-   display: flex;
-   flex-direction: column;
-   height: 100%;
-   max-width: 1000px;
+.blog-container {
    width: 100%;
+   /* margin:auto; */
+   /* background-color:#f1f1f1; */
 }
 
-.tag-cloud {
-   flex: 1;
+
+.blog-leftcolumn {
+   float: left;
+   width: 70%; 
 }
 
-.tag-cloud > div {
-   transition: 1.4s;
+.blog-card {
+   float: left;
+   width: 60%;
+   
+   margin: 25px 150px;
+   /* padding: 5px; */
+   text-align: left;
+   color: black;
+   background-color: #f1f1f1;
+   border-radius: 10px;
+   /* font-family: 'Righteous', cursive; */
+
+   /* border: 0.5px solid;
+   padding: 7px;
+   box-shadow: 2px 4px; */
 }
 
-.tag-item-wrapper {
-   cursor: pointer;
+.blog-card:hover {
+   background-color: lightgrey;
+   transform: scaleY(1.05);
+   transform: scaleX(1.02);
 }
 
-.tag-item-wrapper:hover {
-   z-index: 100;
-}
-
-.tag-item-wrapper:hover .tag-item-tooltip {
-   display: block;
-}
-
-.tag-item-tooltip {
-   background: #c01916;
-   color: white;
-   margin-top: 5px;
-   z-index: 100;
-   display: none;
-   padding: 15px;
-   font-size: 14px;
-   line-height: 1;
-   position: absolute;
-   min-width: 60px;
-   left: 50%;
-   transform: translateX(-50%);
+.blog-card h2 {
+   /* padding-left: 20px;
+   padding-right: 20px; */
    text-align: center;
+   font-size: 25px;
+   font-family: "Gill Sans", sans-serif;
 }
+.blog-card img {
+   width: 70%;
+   margin: auto;
+}
+.blog-card p {
+   font-size: 15px;
+   font-family: sans-serif;
+}
+
+/* rightcolumn start */
+.blog-rightcolumn {
+   float: left;
+   width: 20%;
+   color: #00274C;
+   text-align: left;
+   /* background-color: white; */
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+   .blog-leftcolumn, .blog-rightcolumn  {   
+     width: 100%;
+     padding: 0;
+   }
+ }

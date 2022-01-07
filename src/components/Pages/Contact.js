@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Component } from "react";
+
 
 const Contact = () => {
   return (
@@ -10,6 +11,7 @@ const Contact = () => {
       <a href="https://github.com/duochen13"><h3>github</h3></a>
 
       <a href="https://www.linkedin.com/in/duo-chen/"><h3>linkedin</h3></a>
+
     </>
   );
 };

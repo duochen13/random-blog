@@ -13,6 +13,8 @@ import ReactBlogItemZero from "./components/Pages/blogs/ReactBlogItemZero";
 import ReactBlogItemOne from "./components/Pages/blogs/ReactBlogItemOne";
 import ReactBlogItemTwo from "./components/Pages/blogs/ReactBlogItemTwo";
 import ReactBlogItemThree from "./components/Pages/blogs/ReactBlogItemThree";
+import ReactBlogItemFour from "./components/Pages/blogs/ReactBlogItemFour";
+
 
 
 function App() {
@@ -33,6 +35,7 @@ function App() {
             <Route path="/blog/1" component={ReactBlogItemOne} />
             <Route path="/blog/2" component={ReactBlogItemTwo} />
             <Route path="/blog/3" component={ReactBlogItemThree} />
+            <Route path="/blog/4" component={ReactBlogItemFour} />
             
 
             <Route path="/contact" component={Contact} />

@@ -4,6 +4,7 @@ import blogZeroImg from '../../assets/react_0.jpeg';
 import blogOneImg from '../../assets/siliconValley_0.jpeg';
 import blogTwoImg from '../../assets/cc_0.jpeg';
 import blogThreeImg from '../../assets/umichEECS_0.jpeg';
+import blogFourImg from '../../assets/git_0.jpeg';
 
 import "../../styles/Blog.css"
 
@@ -94,6 +95,13 @@ function Blog() {
               image={blogThreeImg}
               title="Takeaways from 5-year computer science learning journey"
               description='Does programming language matter?...'
+            />
+
+            <BlogCard 
+              clickCard={() => clickCard("4")}
+              image={blogFourImg}
+              title="Git commands within 10min"
+              description='Some super usefull git commands...'
             />
           
         </div>

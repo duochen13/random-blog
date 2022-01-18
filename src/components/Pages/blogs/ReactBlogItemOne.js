@@ -71,11 +71,23 @@ class ReactBlogItemOne extends Component {
                         </p>
 
                         <h3>Pass the interview</h3>
-                        <p>
-                            
-                        </p>
+                        <h4>1.Clarify the problems</h4>
+                        <p>Sometimes interview will deliberately give questions with vague conditions. For example, "Find the top-k numbers from a list". Some clarification questions can be: "Does top-k mean the unique number or we allow duplications?", "Has the give list already been sorted?"</p>
 
-                        <h3></h3>
+                        <h4>2.Come up with the most intuitive solution</h4>
+                        <p>Obviously the most intuitive way is sorting the list, and then use heap, then quick select</p>
+
+                        <h4>3,Idea, algorithm, pseudocode</h4>
+                        <p>This is the most important part of the interview from my percesperstive. When we are given a question with different level of difficulty, our stress level adjusts accordingly.</p>
+
+                        <h4>4.Code</h4>
+                        <p>Actually this part takes only small portion of the whole interview, once you got the idea, I used to take for granted that coding is the most important part of the "technical interview", but once we got the set-up right(data structure, algorithms), coding will become very smoothly.</p>
+
+                        <h4>5.Unit test, run verbally</h4>
+                        <p>Come up some test cases which cover not only the normal inputs but also the boundry cases</p>
+
+                        <h4>6.Follow up questions, optimization</h4>
+                        <p>"What if we are given a sequence of numbers instead of a fixed size list? Does your current solution work, which part should you change and which part should not?"</p>
                         
 
                         <p></p>

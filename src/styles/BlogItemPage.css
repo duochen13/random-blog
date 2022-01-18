@@ -58,6 +58,14 @@ img {
     font-size: 25px;
 }
 
+.blog-container h4 {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
 .blog-container img {
     width: 60%;
     border-radius: 5px;

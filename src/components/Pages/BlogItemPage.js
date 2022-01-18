@@ -13,9 +13,6 @@ class BlogItemPage extends Component {
     render() {
         let blogId = this.props.match.params.blogId;
 
-        const showLineNumbers = true;
-        const startingLineNumber = 1;
-
         return (
             <div>
                 <div className="blog-container">
